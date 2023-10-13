@@ -5,7 +5,7 @@ setup(
     packages=['hakuir'],
     version='0.0.1',
     install_requires=[
-        'torch',
+        'torch~=2.0.0',
         'torchvision',
         'pillow',
         'numpy',
